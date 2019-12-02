@@ -1,8 +1,11 @@
 #!/bin/sh
 
-echo "--- Day 1: The Tyranny of the Rocket Equation ---"
-echo ""
-echo "Part 1."
+printf -- "\n--- Day 1: The Tyranny of the Rocket Equation ---\n"
+
+printf "\nPart 1.\n"
 ./01p1.awk < ./input_01.txt
-echo "Part 2."
+
+printf "\nPart 2.\n"
 ./01p2.awk < ./input_01.txt
+
+printf -- "\n-------------------------------------------------\n"

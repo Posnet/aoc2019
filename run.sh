@@ -19,3 +19,13 @@ printf "\nPart 2.\n"
 ./02.py 19690720 < ./input_02.txt
 
 printf -- "\n-------------------------------------------------\n"
+
+
+printf -- "\n--- Day 3: Crossed Wires ------------------------\n"
+
+printf "\nPart 1.\n"
+nim c O3.nim
+./O3 < input_03.txt
+rm O3
+
+printf -- "\n-------------------------------------------------\n"
